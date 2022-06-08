@@ -1,0 +1,42 @@
+body, html{
+    background-color: rgb(80,121,89);
+    background-image: url("background_home.png");
+    background-repeat:no-repeat;
+    color: rgb(255,255,255);
+}
+
+.title{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Koulen';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: auto;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.statistic-text{
+    font-family: 'Oswald';
+    font-size: 15px;
+}
+
+.lesson{
+    text-align: center;
+    border-radius: 100px;
+    border: 10px solid rgb(0,0,0);
+    width: 20%;
+    margin: 10px;
+}

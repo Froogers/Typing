@@ -1,0 +1,36 @@
+.brand{
+    position: fixed;
+    left: 20px;
+    font-family: 'Koulen';
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.letter{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.typed{
+    color: rgb(0,0,0)
+}
+
+.wrong{
+    color: rgb(255, 0, 0);
+}
+
+#typing{
+    background-color: rgb(255,255,255);
+}
+
+.line{
+    display: flex;
+}
+
+.listen{
+    font-family: 'Oswald';
+    font-size: 30px;
+}

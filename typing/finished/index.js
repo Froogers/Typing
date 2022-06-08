@@ -1,0 +1,2 @@
+document.getElementById('wpm').textContent = `You got ${(parseInt(localStorage.getItem("wpm")).toFixed(0))} Words Per Minute (WPM)!`;
+document.getElementById('home').onclick = function(){ window.open('/', '_self')}
